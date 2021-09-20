@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+.container{
+    background-color: black;
+    border:1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+   height: 43vh;
+} 
+ .text{
+
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    font-size: 53px; 
+} 
+.Search{
+   text-align: center;
+}
+.log{
+    display: flex;
+    background-color: rgb(36, 36, 148);
+    color: white;
+    width: 213px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+}
+.latest{
+    color: rgb(84, 84, 228);
+    text-align: center;
+}
+.rock{
+    color: rgb(103, 233, 238);
+    text-align: center;
+    font-size: 13px;
+}.man{
+    margin: 1px;
+    text-align: center;
+}
+.hr{
+     background-color: black;
+     border: 1px solid white;
+     width: 376px;
+     height: 97px;
+     margin: 7px;
+     border-radius: 20px;
+}
+.music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 90px;
+    position: relative;
+     right: 30px;
+}
+.fn{
+    color: blue;
+    position: relative;
+    top: -54px;
+    left: 238px;
+}
+.big{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   padding: 116px;
+}
+.mob {
+    flex: 0.5;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: end;
+  }
+  
+  .mobile {
+    margin-top: -676px;
+    height: 676px;
+    position: absolute;
+  }
+  
+  .m2 {
+    left: 50px;
+    top: -9px;
+  }
+.new{
+    display: flex;
+    justify-content: center;
+    margin-top: 159px;
+}
+  
+@media screen and (max-width: 900px) {
+    .mobile{
+        display: none;
+    }
+    .big{
+        flex: 1;
+    }
+}
